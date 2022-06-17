@@ -71,3 +71,11 @@ body{
     color: #fff;
     background-color: rgb(215, 119, 215);
 }
+
+.rodape{
+    display: flex;
+}
+
+.rodape i{
+    padding: 30px;
+}
