@@ -1,0 +1,73 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.container{
+    background-image: url(../img/bg-desktop.svg);
+   background-color: hsl(257, 40%, 49%);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.container .header .divisor .logo-img{
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    min-height: 75px;
+}
+.container .header .divisor .logo-img a{
+    background: url(../img/logo.svg)center center no-repeat;
+    padding: 15px 100px;
+    background-size: cover;
+}
+
+.secao .pai{
+    display: grid;
+    grid-template-areas: "img-site contexto";
+    grid-template-columns: 1fr 1fr;
+}
+
+.secao .pai .img-site{
+    grid-area: img-site;
+}
+
+.secao .pai .img-site img{
+    margin-left: 60px ;
+}
+
+.secao .pai .contexto{
+    grid-area: contexto;
+    margin: 50px 0 0 50px;
+}
+
+.secao .pai .contexto h2,
+.secao .pai .contexto h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.secao .pai .contexto p{
+    margin-right: 60px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.secao .pai .contexto .botao{
+    font-size: 15px;
+    color: rgb(238, 130, 238);
+    background-color: #fff;
+    padding: 13px 63px;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-weight: 400;
+}
+.secao .pai .contexto .botao:hover{
+    color: #fff;
+    background-color: rgb(215, 119, 215);
+}
