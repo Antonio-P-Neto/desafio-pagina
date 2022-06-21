@@ -89,4 +89,9 @@ body{
 
 .rodape{
     grid-area: rodape;
+    padding-top: 100px;
+}
+
+.rodape i{
+    padding: 60px auto;
 }
