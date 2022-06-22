@@ -106,7 +106,7 @@ body{
     .container{
         background-image: url(../img/bg-mobile.svg)
     }
-
+}
 
 .rodape-prin{
     grid-area: rodape;
