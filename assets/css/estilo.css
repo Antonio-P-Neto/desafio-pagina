@@ -25,7 +25,7 @@ body{
 
 .header .divisor .logo-img{
     display: flex;
-    padding: 20px 40px;
+    padding: 20px 55px 45px;
     align-items: center;
     min-height: 75px;
 }
@@ -74,24 +74,33 @@ body{
 }
 
 .secao .pai .contexto .botao{
-    font-size: 15px;
+    font-size: 19px;
     color: rgb(179, 77, 179);
     background-color: #fff;
     padding: 13px 63px;
     border-radius: 30px;
     margin-top: 25px;
     font-weight: 400;
+    box-shadow: 3px 4px 4px 2px rgba(0, 0, 0, 0.2);
 }
 .secao .pai .contexto .botao:hover{
     color: #fff;
     background-color: rgb(215, 119, 215);
 }
 
-.rodape{
+.rodape-prin{
     grid-area: rodape;
-    padding-top: 100px;
+    text-align: end;
+
+
+}
+.rodape-prin .redes-sociaes{
+    padding: 30px 60px 40px 0px;
 }
 
-.rodape i{
-    padding: 60px auto;
+.rodape-prin .redes-sociaes a i{
+    font-size: 40px;
+    color: #fff;
+    padding: 15px;
+
 }
