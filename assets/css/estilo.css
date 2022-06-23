@@ -84,30 +84,6 @@ body{
     background-color: rgb(215, 119, 215);
 }
 
-@media(max-width: 1200px){
-    .secao{
-        display: inline;
-        text-align: center;
-    }
-
-    .secao .filho{
-        margin: 0;
-    }
-
-    .secao .img-site img{
-        margin: 0;
-    }
-
-
-
-}
-
-@media(max-width: 1024px){
-    .container{
-        background-image: url(../img/bg-mobile.svg)
-    }
-}
-
 .rodape-prin{
     grid-area: rodape;
     text-align: end;
@@ -123,4 +99,96 @@ body{
     color: #fff;
     padding: 15px;
 
+}
+
+@media(max-width: 1200px){
+    .secao{
+        display: inline;
+        text-align: center;
+    }
+
+    .secao .filho{
+        margin: 0;
+    }
+
+    .secao .img-site img{
+        margin: 0;
+    }
+
+    .rodape-prin{
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 1024px){
+    .container{
+        background-image: url(../img/bg-mobile.svg)
+    }
+}
+
+
+@media(max-width: 768px){
+    body{
+    background-image: url(../img/bg-mobile.svg);
+    background-size:cover;
+    background-color: hsl(257, 40%, 49%);
+
+}
+
+.header .divisor .logo-img{
+    padding: 15px 30px;
+}
+
+.header .divisor .logo-img a{
+    padding: 17px 85px;
+}
+
+    .secao .filho.img-site img{
+        width: 425px;
+        height: 275px;
+    }
+    .secao .filho.contexto{
+        margin: 70px ;
+    }
+
+    .secao .filho.contexto h2,
+    .secao .filho.contexto h3{
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    .secao .filho.contexto p{
+        margin: 0;
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 425px){
+    .secao .filho.img-site img{
+        width: 335px;
+        height: 235px;
+    }
+
+    .secao .filho.contexto h2,
+    .secao .filho.contexto h3{
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    .secao .filho.contexto p{
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .secao .contexto .botao{
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 25px;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 60px;
+    }
 }
